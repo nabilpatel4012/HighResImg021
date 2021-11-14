@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HighResImg021">
         <activity
+            android:name=".MainPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
